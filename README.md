@@ -4,6 +4,8 @@ This is a web component for having a live editor AND a live area which you can h
 
 Nice!
 
+Internally it uses *another component*, [x-editor](https://github.com/sole/x-editor).
+
 ## Usage
 
 Web Components are not ready yet in all browsers, so the safest bet for now is to just and simply include `platform.js` to polyfill gaps in the platform (get it? get it?), and then you can safely include the element as an HTML import:
@@ -34,6 +36,11 @@ You can see it in action in [my presentation for LXJS](https://github.com/sole/l
 Use CSS.
 
 ## API
+
+### Live areas
+
+TO DO
+
 
 ### Methods
 

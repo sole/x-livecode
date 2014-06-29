@@ -63,6 +63,14 @@ If present, the code will be automatically executed as soon as it is loaded. For
 
 #### `hidecode`
 
+If present, the code will be initially hidden. You will have to click on the `code` button to show it (this will evidently require that you show the controls). For example:
+
+````
+<x-livecode src="main.js" hidecode></x-livecode>
+````
+
+
+
 #### `src`
 
 
@@ -78,5 +86,5 @@ TO DO
 
 * Fill the TO DO gaps.
 * Use Vulcanise or something similar to generate a distributable file with only one JavaScript file that registers the element - so it can be used either with HTML imports or with just including such file.
-
+* TESTS
 

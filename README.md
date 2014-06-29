@@ -55,6 +55,12 @@ would append the controls to the first matched `h1` element.
 
 #### `autoexec`
 
+If present, the code will be automatically executed as soon as it is loaded. For example:
+
+````
+<x-livecode src="main.js" autoexec></x-livecode>
+````
+
 #### `hidecode`
 
 #### `src`

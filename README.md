@@ -41,6 +41,24 @@ Use CSS.
 
 TO DO
 
+### Attributes
+
+#### `appendcontrols`
+
+If present, editor controls will be appended to the element that matches the query selector specified with this attribute. For example, the following:
+
+````html
+<x-livecode appendcontrols="h1"></x-livecode>
+````
+
+would append the controls to the first matched `h1` element.
+
+#### `autoexec`
+
+#### `hidecode`
+
+#### `src`
+
 
 ### Methods
 

@@ -69,9 +69,15 @@ If present, the code will be initially hidden. You will have to click on the `co
 <x-livecode src="main.js" hidecode></x-livecode>
 ````
 
-
-
 #### `src`
+
+Specify the path of the file to be loaded. If not present, nothing will be loaded and the editor will be empty. For example:
+
+````
+<x-livecode src="main.js"></x-livecode>
+````
+
+will load the `main.js` file.
 
 
 ### Methods
